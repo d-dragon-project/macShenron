@@ -25,6 +25,11 @@ cp -f desktop-grub.png /usr/share/images/desktop-base/
 cp -f grub-4x3.png /boot/grub/themes/kali/
 cp -f grub-16x9.png /boot/grub/themes/kali/
 apt-get -y  install grub-customizer
+cd ..
+git clone https://github.com/aircrack-ng/rtl8812au.git
+cd rtl8812au
+make 
+make install
 reboot
         ;;
         "Show Commands")
