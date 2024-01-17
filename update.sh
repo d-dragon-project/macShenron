@@ -17,8 +17,6 @@ cp -f desktop-grub.png /usr/share/images/desktop-base/
 cp -f kali-laminaria-16x9.png /usr/share/backgrounds/kali/
 cp -f grub-4x3.png /boot/grub/themes/kali/
 cp -f grub-16x9.png /boot/grub/themes/kali/
-cp -f browser-home-page-banner.jpg /usr/share/kali-defaults/web/images
-cp -f desktop-background.jpg /usr/share/images/desktop-base
 apt-get install -y linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 dpkg -i dkms_3.0.12-1_all.deb
 dpkg -i b43-fwcutter_019-4_amd64.deb
