@@ -1,6 +1,5 @@
 #!/bin/bash
-
-
+pkill -f firefox
 clear 
 echo "##################################################"
 echo "         Run after installing Kali Linux          "                                      	
